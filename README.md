@@ -1,5 +1,5 @@
 # Arlec DC Ceiling Fan Remote FT0317A Arduino
-Bare bones code to control the Arlec RC212 Wireless Power Point from an Arduino using the MX-RM-5V a cheap chinese 433MHz transmitter or similar. Take note that pin 11 is used to send the data. The circuit is as simple as it sounds.
+Bare bones code to control the Arlec Grid Connect Ceiling Fan (replacing the 433MHz remote) from an Arduino using the MX-RM-5V a cheap chinese 433MHz transmitter or similar. Take note that pin 11 is used to send the data. The circuit is as simple as it sounds. I used an Arduino Nano ATMega168, the code in untested on other Arduinos (the delay 34ms could be an issue).
 
 I have had to modify the RC-Switch library to accept 40bit code and a sync pulse. If you use the standard RC-Switch library you will have issues compiling. Simply copy the RC-Switch library into your Arduino\libraries folder under your Documents folder (Windows).
 
