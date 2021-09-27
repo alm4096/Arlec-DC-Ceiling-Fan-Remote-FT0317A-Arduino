@@ -10,6 +10,7 @@ NOTE: This remote is used on a number of other ceiling fans, if your remote look
 ![FT0317A image](FT0317A.png?raw=true "FT0317A Image")
 
 This is all you need, very simple:
+
 ![Circuit image](Circuit.jpg?raw=true "Circuit Image")
 
 You can then use an ESP8266 to control your Fan from WiFi without using any apps. I have created a webpage on the ESP8266. If I receive enough comments for the ESP8266 example I'll upload it.
