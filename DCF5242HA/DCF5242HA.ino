@@ -47,6 +47,9 @@ void setup() {
 
 // Example turning on and off the light
 void loop() {
+  //Check to see if the library is correctly modified
+  mySwitch.amIModified();
+  
   //Send B command first
   mySwitch.send(&bLghtOn[0] , 40);
 
